@@ -1,0 +1,30 @@
+body,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #6eda78, #ffa200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Main{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.Btn{
+    height: 100px;
+    width: 250px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgb(240, 240, 240);
+    color: black;
+}
