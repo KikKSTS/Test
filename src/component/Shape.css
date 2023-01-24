@@ -1,0 +1,66 @@
+.Btn3{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221, 221, 221);
+    border-radius: 20px;
+    border: none;
+}
+
+.Btn3:hover{
+    background: #ffa200;
+}
+
+.Row1{
+    background: lightblue;
+}
+
+.Row2{
+    background: lightsalmon;
+}
+
+.Square{
+    width: 60px;
+    height: 60px;
+    background:  rgb(80, 80, 80);
+}
+
+.Circle{
+    width: 60px;
+    height: 60px;
+    background:  rgb(80, 80, 80);
+    border-radius: 50%;
+}
+
+.Elipse{
+    width: 180px;
+    height: 80px;
+    background:  rgb(80, 80, 80);
+    border-radius: 50%;
+}
+
+.Trapezoid{
+    border-bottom: 60px solid rgb(80, 80, 80);
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    height: 0px;
+    width: 180px;
+}
+
+.Rectangle{
+    width: 180px;
+    height: 80px;
+    background:  rgb(80, 80, 80);
+}
+
+.Parallelogram {
+    background:  rgb(80, 80, 80);
+    width: 150px;
+    height: 80px;
+    transform: skew(20deg);
+}
+

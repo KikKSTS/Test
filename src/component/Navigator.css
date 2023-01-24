@@ -1,0 +1,63 @@
+.TriangleDown {
+    border-top: 60px solid rgb(80, 80, 80);
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+.TriangleUp {
+    border-bottom: 60px solid rgb(80, 80, 80);
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+.TriangleLeft {
+    border-top: 30px solid transparent;
+    border-right: 60px solid rgb(80, 80, 80);
+    border-bottom: 30px solid transparent;
+}
+
+.TriangleRight {
+    border-top: 30px solid transparent;
+    border-left: 60px solid rgb(80, 80, 80);
+    border-bottom: 30px solid transparent;
+}
+
+.Main {
+    width: 70%;
+    background: transparent;
+}
+
+.Btn2{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221, 221, 221);
+    border-radius: 20px;
+    border: none;
+}
+
+.Btn2:nth-child(2){
+    height: 120px;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Btn2:hover{
+    background: #ffa200;
+}
+
+.Label{
+    position: absolute;
+    bottom: -10px;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    background:#6eda78;
+    color: #fff;
+    border-radius: 50px;
+}

@@ -18,13 +18,20 @@ html {
     margin: 0 auto;
 }
 
-.Btn{
+.Btn1{
     height: 100px;
     width: 250px;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background: rgb(240, 240, 240);
     color: black;
+    border: none;
+    border-radius: 30px;
+}
+
+.Btn1:hover{
+    cursor: pointer;
+    color: rgb(3, 83, 255);
+    font-weight: 500;
 }
